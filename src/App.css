@@ -1,0 +1,53 @@
+button{
+  padding: 10px;
+  margin: 4px;
+  background: rgb(164, 82, 211);
+  box-shadow: 5px 5px grey;
+  height: 50px;
+  width: 50px;
+}
+
+.buttonText{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+button:hover{
+  background: rgb(80, 216, 87);
+}
+
+input [type = "text"]{
+  padding: 10px;
+  margin: 4px;
+  border-radius: 3px;
+}
+
+input{
+  height: 50px;
+  width: 212px;
+}
+
+body{
+  background-color:rgb(247, 255, 94);
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.top{
+  padding: 10px;
+  background: lightblue;
+  border-radius: 20px;
+
+}
+
+.btnBox{
+  padding: 55px 0;
+  width: 300px;
+}
